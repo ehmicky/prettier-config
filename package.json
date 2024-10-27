@@ -15,8 +15,8 @@
   },
   "description": "Prettier configuration for my own projects",
   "keywords": [
-    "prettierrc",
     "prettier",
+    "prettierrc",
     "editorconfig",
     "lint",
     "config",
