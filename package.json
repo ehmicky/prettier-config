@@ -1,6 +1,6 @@
 {
   "name": "@ehmicky/prettier-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "exports": {
     ".": "./prettier.config.js"
