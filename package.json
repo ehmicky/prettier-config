@@ -1,0 +1,49 @@
+{
+  "name": "@ehmicky/prettier-config",
+  "version": "19.0.4",
+  "type": "module",
+  "exports": {
+    ".": "./.prettierrc.js"
+  },
+  "main": "./.prettierrc.js",
+  "files": [
+    ".prettierrc.js",
+    ".editorconfig"
+  ],
+  "scripts": {
+    "test": "gulp test"
+  },
+  "description": "Prettier configuration for my own projects",
+  "keywords": [
+    "prettierrc",
+    "prettier",
+    "editorconfig",
+    "lint",
+    "config",
+    "configuration"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://www.github.com/ehmicky/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehmicky/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ehmicky/prettier-config/issues"
+  },
+  "author": "ehmicky <ehmicky@gmail.com> (https://github.com/ehmicky)",
+  "directories": {
+    "lib": "src"
+  },
+  "devDependencies": {
+    "@ehmicky/dev-tasks": "^3.0.17",
+    "nano-spawn": "^0.1.0",
+    "prettier": "^3.3.3"
+  },
+  "peerDependencies": {
+    "prettier": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
