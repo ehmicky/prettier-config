@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "exports": {
-    ".": "./.prettierrc.js"
+    ".": "./prettier.config.js"
   },
-  "main": "./.prettierrc.js",
+  "main": "./prettier.config.js",
   "files": [
-    ".prettierrc.js",
+    "prettier.config.js",
     ".editorconfig"
   ],
   "scripts": {

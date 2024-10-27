@@ -4,7 +4,7 @@ import test from 'ava'
 import spawn from 'nano-spawn'
 
 const PRETTIER_CONFIG = fileURLToPath(
-  new URL('../../.prettierrc.js', import.meta.url),
+  new URL('../../prettier.config.js', import.meta.url),
 )
 
 test('Smoke test', async (t) => {
